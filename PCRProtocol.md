@@ -39,18 +39,18 @@ Procedure
 Prepare Master Mix
 -------------
 1. Label a tube 'MM1' for 'Master Mix One' and another tube 'MM2' for 'Master Mix Two.'
-2. Pipette 500uL water, 1.5uL 500X Sybr, 7.5uL Phusion DNA polymerase, 150uL Phusion HF Buffer, 15uL 10mM dNTPs, and 3uL pUC19 into MM1.
-3. Pipette 500uL water, 1.5uL 500X Sybr, 7.5uL Phusion DNA polymerase, 150uL Phusion HF Buffer, 15uL 10mM dNTPs, and 3uL pUC19 into MM2. 
+2. Pipette 498.5uL water, 1.5uL 500X Sybr, 7.5uL Phusion DNA polymerase, 150uL Phusion HF Buffer, 15uL 10mM dNTPs, and 3uL pUC19 into MM1.
+3. Pipette 498.5uL water, 1.5uL 500X Sybr, 7.5uL Phusion DNA polymerase, 150uL Phusion HF Buffer, 15uL 10mM dNTPs, and 3uL pUC19 into MM2. 
 
 Prepare Primers
 -------------
 1. Label six tubes 'PS1,' 'PS2,' 'PS3,' 'POS1,' 'POS2,' and 'POS3.'
-2. Pipette 16uL of water, 2 uL of "Dev_PCR_Fwd_1", and 2 uL of "Dev_PCR_Rev_1" into 'PS1.'
-3. Pipette 16uL of water, 2 uL of "Dev_PCR_Fwd_2", and 2 uL of "Dev_PCR_Rev_2" into 'PS2.'
-4. Pipette 16uL of water, 2 uL of "Dev_PCR_Fwd_3", and 2 uL of "Dev_PCR_Rev_3" into 'PS3.'
-5. Pipette 16uL of water, 2 uL of "Dev_PCR_Fwd_1", and 2 uL of "Dev_PCRPos_Rev_1" into 'POS1.'
-6. Pipette 16uL of water, 2 uL of "Dev_PCR_Fwd_2", and 2 uL of "Dev_PCRPos_Rev_2" into 'POS2.'
-7. Pipette 16uL of water, 2 uL of "Dev_PCR_Fwd_3", and 2 uL of "Dev_PCRPos_Rev_3" into 'POS3.'
+2. Pipette 24uL of water, 3 uL of "Dev_PCR_Fwd_1", and 3 uL of "Dev_PCR_Rev_1" into 'PS1.'
+3. Pipette 24uL of water, 3 uL of "Dev_PCR_Fwd_2", and 3 uL of "Dev_PCR_Rev_2" into 'PS2.'
+4. Pipette 24uL of water, 3 uL of "Dev_PCR_Fwd_3", and 3 uL of "Dev_PCR_Rev_3" into 'PS3.'
+5. Pipette 24uL of water, 3 uL of "Dev_PCR_Fwd_1", and 3 uL of "Dev_PCRPos_Rev_1" into 'POS1.'
+6. Pipette 24uL of water, 3 uL of "Dev_PCR_Fwd_2", and 3 uL of "Dev_PCRPos_Rev_2" into 'POS2.'
+7. Pipette 24uL of water, 3 uL of "Dev_PCR_Fwd_3", and 3 uL of "Dev_PCRPos_Rev_3" into 'POS3.'
 
 
 Prepare Plate
