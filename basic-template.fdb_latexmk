@@ -1,0 +1,33 @@
+# Fdb version 3
+["bibtex basic-template"] 1558070968 "basic-template.aux" "basic-template.bbl" "basic-template" 1558070968
+  "C:/Program Files/MiKTeX 2.9/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
+  "M335.bib" 0 -1 0 ""
+  "basic-template.aux" 1558070765 146 3ac8ac4184a5f2b78425a676ef6384df "pdflatex"
+  (generated)
+  "basic-template.blg"
+  "basic-template.bbl"
+["pdflatex"] 1558070765 "basic-template.tex" "basic-template.pdf" "basic-template" 1558070968
+  "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
+  "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
+  "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmex10.tfm" 1136765053 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
+  "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmmi12.tfm" 1136765053 1524 4414a8315f39513458b80dfc63bff03a ""
+  "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr12.tfm" 1136765053 1288 655e228510b4c2a1abe905c368440826 ""
+  "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr17.tfm" 1136765053 1292 296a67155bdbfc32aa9c636f21e91433 ""
+  "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmsy10.tfm" 1136765053 1124 6c73e740cf17375f03eec0ee63599741 ""
+  "C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
+  "C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
+  "C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1247596666 32362 179c33bbf43f19adbb3825bb4e36e57a ""
+  "C:/Program Files/MiKTeX 2.9/tex/latex/base/exscale.sty" 1544471112 2584 9cad556952e74a34ad4a9cebab2ee8aa ""
+  "C:/Program Files/MiKTeX 2.9/tex/latex/base/inputenc.sty" 1544471112 5052 b64c57f4a38aae0d2745f8298fa50814 ""
+  "C:/Program Files/MiKTeX 2.9/tex/latex/base/size12.clo" 1544471102 8305 6a682ae291edd56e2d7accbf95eca451 ""
+  "C:/Program Files/MiKTeX 2.9/tex/latex/cite/cite.sty" 1425353482 26218 19edeff8cdc2bcb704e8051dc55eb5a7 ""
+  "C:/Program Files/MiKTeX 2.9/tex/latex/extsizes/extarticle.cls" 947706120 20602 3112294ba237d94ce4a1502cfef3594f ""
+  "C:/Users/Alan/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1558070673 4231995 24b8d00888f35609fb1670207d1ac981 ""
+  "C:/Users/Alan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map" 1558070643 80453 73224248f0a73acd005b5611945eaaa6 ""
+  "basic-template.aux" 1558070765 146 3ac8ac4184a5f2b78425a676ef6384df "pdflatex"
+  "basic-template.bbl" 0 -1 0 "bibtex basic-template"
+  "basic-template.tex" 1558070749 716 2a4e2d2d847b80f7e64f5c6a0327fedf ""
+  (generated)
+  "basic-template.aux"
+  "basic-template.log"
+  "basic-template.pdf"

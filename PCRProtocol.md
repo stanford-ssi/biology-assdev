@@ -5,7 +5,7 @@ Written by Alan Tomusiak and Amy Dunphy \
 
 Procedure Purpose
 =================
-Perform a PCR to isolate a 300-bp fragment from a pUC19 plasmid while adding restriction sites close to each end. This protocol will also create positive control strands for downstream Sanger sequencing, in which the desired nucleotide to be added is already in the strand.
+Perform a PCR to isolate a 300-bp fragment from a pUC19 plasmid while adding restriction sites close to each end. This protocol will also create positive control strands for downstream Sanger sequencing, in which the desired nucleotide to be added is already in the strand. Demonstrating git effectiveness.
 
 yoyOYOYoyoyooyo hallodsfihskj
 
