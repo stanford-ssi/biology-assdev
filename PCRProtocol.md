@@ -5,7 +5,7 @@ Written by Alan Tomusiak and Amy Dunphy \
 
 Procedure Purpose
 =================
-Perform a PCR to isolate a 300-bp fragment from a pUC19 plasmid while adding restriction sites close to each end. This protocol will also create positive control strands for downstream Sanger sequencing, in which the desired nucleotide to be added is already in the strand.
+Perform a PCR to isolate a 300-bp fragment from a pUC19 plasmid while adding restriction sites close to each end. This protocol will also create positive control strands for downstream Sanger sequencing, in which the desired nucleotide to be added is already in the strand. Demonstrating git effectiveness.
 
 
 Overview
@@ -40,7 +40,7 @@ Prepare Master Mix
 -------------
 1. Label a tube 'MM1' for 'Master Mix One' and another tube 'MM2' for 'Master Mix Two.'
 2. Pipette 498.5uL water, 1.5uL 500X Sybr, 7.5uL Phusion DNA polymerase, 150uL Phusion HF Buffer, 15uL 10mM dNTPs, and 3uL pUC19 into MM1.
-3. Pipette 498.5uL water, 1.5uL 500X Sybr, 7.5uL Phusion DNA polymerase, 150uL Phusion HF Buffer, 15uL 10mM dNTPs, and 3uL pUC19 into MM2. 
+3. Pipette 498.5uL water, 1.5uL 500X Sybr, 7.5uL Phusion DNA polymerase, 150uL Phusion HF Buffer, 15uL 10mM dNTPs, and 3uL pUC19 into MM2.
 
 Prepare Primers
 -------------
