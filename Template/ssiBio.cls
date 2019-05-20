@@ -33,8 +33,8 @@
 % Substitution Commands
 \newcommand{\tdt}{Terminal Deoxynucleotidyl Transferase}
 \newcommand{\C}{$^{\circ}$C}
-\newcommand{\uL}{$\mu{}$L }
-\newcommand{\uM}{$\mu{}$M }
+\newcommand{\uL}{$\mu{}$L}
+\newcommand{\uM}{$\mu{}$M}
 \newcommand{\BdATP}{3'-O-(2-nitrobenzyl)-2'-dATP}
 
 %Stop Point (Optional)
