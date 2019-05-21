@@ -35,6 +35,7 @@
 \newcommand{\C}{$^{\circ}$C}
 \newcommand{\uL}{$\mu{}$L}
 \newcommand{\uM}{$\mu{}$M}
+\newcommand{\ug}{$\mu{}$g}
 \newcommand{\BdATP}{3'-O-(2-nitrobenzyl)-2'-dATP}
 
 %Stop Point (Optional)

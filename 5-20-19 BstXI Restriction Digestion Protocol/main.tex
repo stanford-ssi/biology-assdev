@@ -8,7 +8,7 @@
 
 \maketitle
 \section{Procedure Purpose}
-Perform BstXI restriction digestion on AD template DNA to be used for the backspace synthesis method. 
+Perform BstXI restriction digestion on AD template DNA in order to create a free 3' overhang. This overhang can be used for basepair addition in order to test the backspace method.
 
 \section{Safety Information}
 \begin{safety}
@@ -20,20 +20,31 @@ Perform BstXI restriction digestion on AD template DNA to be used for the backsp
 \section{Materials}
 \begin{itemize}
   \item{AD Template}
+  \item{BstXI (10000 units/mL)}
+  \item{10X NEBuffer 3.1}
+  \item{Nuclease-free Water}
+  \item{Agarose}
+  \item{1X Tris-Borate-EDTA (TBE) Buffer}
+  \item{Thermocycler}
+  \item{Gel-running apparatus.}
+  \item{PCR 8-strip tubes OR 96-well plate.}
 \end{itemize}
-
-\section{Dilutions}
-\begin{enumerate}
-  \item{Dilute the AD template such that its final concentration in the PCR reaction will be 1ng/\uL.}
-\end{enumerate}
 
 \section{Procedure}
 \begin{enumerate}
   \item{Mix the following reagents in either a PCR tube or a 96-well plate such that the final concentrations match the following:}
-
+  \begin{enumerate}
+    \item{1\ug{} AD template}
+    \item{1X NEBuffer 3.1}
+    \item{10 units BstXI}
+  \end{enumerate}
+  \item{Fill remaining volume with nuclease-free water.}
+  \helpfulTip{You can, and should, create a large master mix with enough materials for multiple reactions and then aliquot smaller volumes into either PCR tubes or 96-well plate wells.}
+  \item{Incubate at 37\C{} for twenty minutes, and then at 80\C{} for 20 minutes.}
+  \stopPoint
+  \item{Validate successful restriction digestion utilizing a 2\% agarose gel.}
+  \item{If necessary, further validate successful restriction digestion by sending in a purified sample to be Sanger sequenced.}
 \end{enumerate}
-
-\section{Analysis}
 
 \bibliographystyle{ieeetr}
 \bibliography{main}
