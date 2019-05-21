@@ -1,0 +1,24 @@
+LOCUS       Sequence2_G9             370 bp ds-DNA     linear       09-MAY-2019
+DEFINITION  .
+ACCESSION   
+VERSION     
+SOURCE      .
+  ORGANISM  .
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     misc_feature    76..370
+                     /locus_tag="Sequenced"
+                     /ApEinfo_fwdcolor="#8080c0"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+ORIGIN
+        1 GCAGCCAACT CAGCTTCTGC AGctatgacc atgattacgc caagcttgca tgcctgcagg
+       61 tcgactctag aggatccccg ggtaccgagc tcgaattcac tggccgtcgt tttacaacgt
+      121 cgtgactggg aaaaccctgg cgttacccaa cttaatcgcc ttgcagcaca tccccctttc
+      181 gccagctggc gtaatagcga agaggcccgc accgatcgcc cttcccaaca gttgcgcagc
+      241 ctgaatggcg aatggcgcct gatgcggtat tttctcctta cgcatctgtg cggtatttca
+      301 caccgcatat ggtgcactct cagtacaatc tgctctgatg cCCAGGAGCC TGGATAACAA
+      361 TCGCACGTAT     
+//

@@ -1,0 +1,11 @@
+LOCUS       Reverse_Primer_S          22 bp ds-DNA     linear       28-MAR-2019
+DEFINITION  .
+ACCESSION   
+VERSION     
+SOURCE      .
+  ORGANISM  .
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+ORIGIN
+        1 GCAGCCAACT CAGCTTCTGC AG   
+//

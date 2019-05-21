@@ -1,0 +1,24 @@
+LOCUS       New_DNA                  407 bp ds-DNA     linear       09-MAY-2019
+DEFINITION  .
+ACCESSION   
+VERSION     
+SOURCE      .
+  ORGANISM  .
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     misc_feature    130..407
+                     /locus_tag="Sequenced"
+                     /ApEinfo_fwdcolor="#8080ff"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+ORIGIN
+        1 GCAGCCAACT CAGCTTCTGC AGccggatca agagctacca actctttttc cgaaggtaac
+       61 tggcttcagc agagcgcaga taccaaatac tgttcttcta gtgtagccgt agttaggcca
+      121 ccacttcaag aactctgtag caccgcctac atacctcgct ctgctaatcc tgttaccagt
+      181 ggctgctgcc agtggcgata agtcgtgtct taccgggttg gactcaagac gatagttacc
+      241 ggataaggcg cagcggtcgg gctgaacggg gggttcgtgc acacagccca gcttggagcg
+      301 aacgacctac accgaactga gatacctaca gcgtgagcta tgagaaagcg ccacgcttcc
+      361 cgaagggaga aaggcggaCC AGGAGCCTGG ATCACGAGTG CTTGTTT 
+//

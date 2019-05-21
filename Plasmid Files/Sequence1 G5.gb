@@ -1,0 +1,43 @@
+LOCUS       Sequence1_G5             378 bp ds-DNA     linear       11-MAY-2019
+DEFINITION  .
+ACCESSION   
+VERSION     
+SOURCE      .
+  ORGANISM  .
+COMMENT     
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     misc_feature    23..351
+                     /locus_tag="pUC19 Derived"
+                     /ApEinfo_fwdcolor="#8080ff"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    1..22
+                     /locus_tag="Forward Overhang"
+                     /ApEinfo_fwdcolor="#ff8080"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    352..378
+                     /locus_tag="Reverse Overhang"
+                     /ApEinfo_fwdcolor="#ffff80"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    67..378
+                     /locus_tag="Sequenced"
+                     /ApEinfo_fwdcolor="#ff80ff"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+ORIGIN
+        1 GCAGCCAACT CAGCTTCTGC AGgtatgttg tgtggaattg tgagcggata acaatttcac
+       61 acaggaaaca gctatgacca tgattacgcc aagcttgcat gcctgcaggt cgactctaga
+      121 ggatccccgg gtaccgagct cgaattcact ggccgtcgtt ttacaacgtc gtgactggga
+      181 aaaccctggc gttacccaac ttaatcgcct tgcagcacat ccccctttcg ccagctggcg
+      241 taatagcgaa gaggcccgca ccgatcgccc ttcccaacag ttgcgcagcc tgaatggcga
+      301 atggcgcctg atgcggtatt ttctccttac gcatctgtgc ggtatttcac aCCAGGAGCC
+      361 TGGTGCATTG CTTGTATC    
+//
