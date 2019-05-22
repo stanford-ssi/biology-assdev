@@ -82,10 +82,10 @@ All samples will have R1-4 following them, indicating which replicate they belon
   \item{Into the AD5 and AD6 tubes, pipette the following:}
   \begin{enumerate}
     \item{18.5\uL{} nuclease-free water.}
-    \item{20\uL{} template DNA}
+    \item{20\uL{} template DNA.}
     \item{10\uL{} 5X TdT Buffer.}
     \item{1\uL{} 100mM dTTP.}
-    \item{.5\uL{} 30U/\uL{} Terminal Deoxynucleotidyl Transferase}
+    \item{.5\uL{} 30U/\uL{} Terminal Deoxynucleotidyl Transferase.}
   \end{enumerate}
   \item{Incubate at 37\C{} for an hour.}
   \item{Stop the reaction by heating at 70\C{} for ten minutes.}
@@ -116,12 +116,56 @@ All samples will have R1-4 following them, indicating which replicate they belon
   \end{itemize}
   \item{Run the gel at 100V until the lower loading dye marker is approximately halfway down the gel.}
   \stopPoint{}
-  \item{Purify the reaction using a Qiagen PCR Purification kit.}
+  \item{Purify the reaction using a Qiagen PCR Purification kit. Dilute in 40 \uL{} of elution buffer for the final elution step.}
   \item{Measure DNA concentration using a NanoDrop Spectrophotometer.}
   \stopPoint{}
 \end{enumerate}
 
 \subsection{Complementary Strand Binding and Exonuclease T Cleavage}
+\begin{enumerate}
+\item{Dilute TdT-extended template to a concentration of 12.5ng/\uL{}.}
+\item{Into the AD5 tubes, add the following:}
+\begin{enumerate}
+  \item{5\uL{} NEBuffer 4.}
+  \item{20\uL{} TdT-extended template.}
+  \item{1.22\uL{} 100\uM{} Dev\_Comp\_5\_Pure.}
+  \item{22.78\uL{} nuclease-free water.}
+\end{enumerate}
+\item{Into the AD6 tubes, add the following:}
+\begin{enumerate}
+  \item{5\uL{} NEBuffer 4.}
+  \item{20\uL{} TdT-extended template.}
+  \item{1.2\uL{} 100\uM{} Dev\_Comp\_6\_Pure.}
+  \item{22.8\uL{} nuclease-free water.}
+\end{enumerate}
+\item{Place all eight tubes into a thermocycler.}
+\item{Set the thermocycler to hold at 94\C{} for two minutes, and then ramp down to 5\C{} forever at a rate of 5\C{} per minute.}
+\item{Add 1\uL{} of Exonuclease T to each tube, and allow incubation at 5\C{} for thirty minutes.}
+\item{Add 5\uL{} of 500mM EDTA to each tube. Mix. Heat inactivate by heating to 65\C{} for twenty minutes.}
+\item{Run 4\uL{} of the reaction on a 2\% agarose gel. Run the gel according to the following table. Ensure that there is not a significant amount of tailed reaction left over. If there is a significant amount of tailed strand remaining, proceed to the next step and then repeat complementary strand binding and Exonuclease T cleavage.}
+  \begin{table}[ht]
+  \centering
+  \begin{tabular}{|l|l|}
+  \hline
+  \multicolumn{1}{|c|}{\textbf{Lane}} & \multicolumn{1}{c|}{\textbf{Sample}} \\ \hline
+  1 & 50bp DNA Ladder \\ \hline
+  2 & AD5 R1 \\ \hline
+  3 & AD5 R2 \\ \hline
+  4 & AD5 R3 \\ \hline
+  5 & AD5 R4 \\ \hline
+  6 & AD6 R1 \\ \hline
+  7 & AD6 R2 \\ \hline
+  8 & AD6 R3 \\ \hline
+  9 & AD6 R4 \\ \hline
+  10 & 10ng/uL Digested Template \\ \hline
+  \end{tabular}
+  \caption{\label{tab:gel-2-table}Gel 2 Loading Table.}
+  \end{table}
+\stopPoint{}
+\item{Purify the reaction using a Qiagen PCR Purification kit. Dilute in 40 \uL{} of elution buffer for the final elution step.}
+\item{Measure DNA concentration using a NanoDrop Spectrophotometer.}
+\stopPoint{}
+\end{enumerate}
 
 \subsection{Positive Control A-Overhang Addition}
 
