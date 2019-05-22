@@ -51,7 +51,7 @@ All samples will have R1-4 following them, indicating which replicate they belon
   \item{100\uM{} Dev\_Comp\_5\_Pure Primer}
   \item{100\uM{} Dev\_Comp\_6\_Pure Primer}
   \item{Agarose}
-  \item{Nuclease-free Water}
+  \item{6X Purple Loading Dye}
   \item{1X Tris-Borate-EDTA (TBE) Buffer}
   \item{10,000X SYBR Green I}
   \item{Thermocycler}
@@ -66,7 +66,7 @@ All samples will have R1-4 following them, indicating which replicate they belon
   \item{10mM dNTPs}
   \item{10X Taq Reaction Buffer Pack}
   \item{Oligo d(T)18 Primer}
-  \item{PCR 8-strip Tubes}
+  \item{Goldbio 50bp DNA Ladder}
 \end{itemize}
 
 \section{Procedure}
@@ -79,7 +79,7 @@ All samples will have R1-4 following them, indicating which replicate they belon
     \item{AD6 R1 - AD6 R4}
     \item{ADNC R1 - ADNC R4}
   \end{enumerate}
-  \item{Into each tube, pipette the following:}
+  \item{Into the AD5 and AD6 tubes, pipette the following:}
   \begin{enumerate}
     \item{18.5\uL{} nuclease-free water.}
     \item{20\uL{} template DNA}
@@ -90,7 +90,31 @@ All samples will have R1-4 following them, indicating which replicate they belon
   \item{Incubate at 37\C{} for an hour.}
   \item{Stop the reaction by heating at 70\C{} for ten minutes.}
   \stopPoint{}
-  \item{Run 2\uL{} of the reaction on a 2\% agarose gel. Ensure that strands are uniformly tailed and that there is not a significant portion of template that is not tailed. If tailing is not complete, proceed to the next step and then repeat TdT tailing.}
+  \item{Run 2\uL{} of the reaction on a 2\% agarose gel. Run the gel according to the following table. Ensure that strands are uniformly tailed and that there is not a significant portion of template that is not tailed. If tailing is not complete, proceed to the next step and then repeat TdT tailing.}
+    \begin{table}[ht]
+    \centering
+    \begin{tabular}{|l|l|}
+    \hline
+    \multicolumn{1}{|c|}{\textbf{Lane}} & \multicolumn{1}{c|}{\textbf{Sample}} \\ \hline
+    1 & 50bp DNA Ladder \\ \hline
+    2 & AD5 R1 \\ \hline
+    3 & AD5 R2 \\ \hline
+    4 & AD5 R3 \\ \hline
+    5 & AD5 R4 \\ \hline
+    6 & AD6 R1 \\ \hline
+    7 & AD6 R2 \\ \hline
+    8 & AD6 R3 \\ \hline
+    9 & AD6 R4 \\ \hline
+    10 & 10ng/uL Digested Template \\ \hline
+    \end{tabular}
+    \caption{\label{tab:gel-1-table}Gel 1 Loading Table.}
+    \end{table}
+  \item{To load the gel, mix the following on a piece of parafilm and then load 10\uL{} onto the gel lane:}
+  \begin{itemize}
+    \item{For the ladder lane, mix 5\uL{} of the ladder mix with 7\uL{} of 1X TBE buffer.}
+    \item{For the remaining lanes, mix 3\uL{} of the sample with 7\uL{} of 1X TBE buffer and 2\uL{} of 6X Purple Loading Dye.}
+  \end{itemize}
+  \item{Run the gel at 100V until the lower loading dye marker is approximately halfway down the gel.}
   \item{Purify the reaction using a Qiagen PCR Purification kit.}
   \stopPoint{}
 \end{enumerate}
