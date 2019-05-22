@@ -55,8 +55,8 @@ All samples will have R1-4 following them, indicating which replicate they belon
   \item{1X Tris-Borate-EDTA (TBE) Buffer}
   \item{10,000X SYBR Green I}
   \item{Thermocycler}
-  \item{10X TdT Buffer Pack}
-  \item{10X CoCl2}
+  \item{30U/\uL{} Terminal Deoxynucleotidyl Transferase}
+  \item{5X TdT Buffer}
   \item{Exonuclease T}
   \item{NEBuffer 4}
   \item{EDTA}
@@ -70,9 +70,42 @@ All samples will have R1-4 following them, indicating which replicate they belon
 \end{itemize}
 
 \section{Procedure}
+\subsection{TdT Poly-T Tailing}
 \begin{enumerate}
-  \item{}
+  \item{Dilute verified and purified BstXI-digested template DNA to a concentration of 25ng/\uL{}.}
+  \item{Label twelve tubes as per the following:}
+  \begin{enumerate}
+    \item{AD5 R1 - AD5 R4}
+    \item{AD6 R1 - AD6 R4}
+    \item{ADNC R1 - ADNC R4}
+  \end{enumerate}
+  \item{Into each tube, pipette the following:}
+  \begin{enumerate}
+    \item{18.5\uL{} nuclease-free water.}
+    \item{20\uL{} template DNA}
+    \item{10\uL{} 5X TdT Buffer.}
+    \item{1\uL{} 100mM dTTP.}
+    \item{.5\uL{} 30U/\uL{} Terminal Deoxynucleotidyl Transferase}
+  \end{enumerate}
+  \item{Incubate at 37\C{} for an hour.}
+  \item{Stop the reaction by heating at 70\C{} for ten minutes.}
+  \stopPoint{}
+  \item{Run 2\uL{} of the reaction on a 2\% agarose gel. Ensure that strands are uniformly tailed and that there is not a significant portion of template that is not tailed. If tailing is not complete, proceed to the next step and then repeat TdT tailing.}
+  \item{Purify the reaction using a Qiagen PCR Purification kit.}
+  \stopPoint{}
 \end{enumerate}
+
+\subsection{Exonuclease T Cleavage}
+
+\subsection{Positive Control A-Overhang Addition}
+
+\subsection{TdT Poly-A Tailing}
+
+\subsection{Complementary Strand Fill-In}
+
+\section{Analysis}
+
+\section{Conclusions}
 
 \bibliographystyle{ieeetr}
 \bibliography{main}
