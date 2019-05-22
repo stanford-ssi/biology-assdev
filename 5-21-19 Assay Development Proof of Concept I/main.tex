@@ -9,6 +9,24 @@
 \maketitle
 \section{Procedure Purpose}
 Perform a full validation of whether the technique employed by the assay development team is capable of testing backspace synthesis. Test every step in the assay to troubleshoot any problematic components. Determine whether a 5-bp or a 6-bp complementary strand will lead to more efficient nucleotide addition. Create positive and negative control results for future comparison.
+
+\section{Overview}
+In order to conduct DNA synthesis using water-soluble and non-toxic materials, a method using a pair of enzymes to extend and shorten a pre-existing template strand has been devised and termed the 'backspace' method. This technique involves three steps:
+\begin{enumerate}
+\item{Elongating an existing single-stranded DNA strand with an arbitrary length of one nucleotide of choice using Terminal Deoxynucleotidyl Transferase (TdT).}
+\item{Adding a complementary strand that matches the 3' end of the original starting sequence, as well as one or two of the added nucleotides.}
+\item{Introducing Exonuclease T, which will cleave the 3' region of the elongated starting strand, effectively cleaving excess nucleotides that are not to be added. \cite{zuo_deutscher_1999}}
+\end{enumerate}
+This experiment is intended to implement each of the steps of the 'backspace' technique, resulting in the addition of a single nucleotide to a pre-determined ssDNA strand. This is the first test of the AD assay, in which addition onto a pre-determined ~350bp strand is assayed using Sanger sequencing. The AD assay consists of the following:
+\begin{enumerate}
+\item{Creating a small 4-bp overhang on a template strand by using the BstXI restriction enzyme.}
+\item{Performing backspace synthesis, as described above, on the template strand.}
+\item{Poly-A tailing the template strand.}
+\item{Creating a fully double-stranded sequence by filling in the single-stranded region using a Taq polymerase and an oligo d(T)18 primer.}
+\item{Sanger sequencing the resulting strand.}
+This experiment will also create positive and negative controls in order to better determine successful addition using the backspace synthesis method.
+\end{enumerate}
+
 \section{Safety Information}
 \begin{safety}
   \begin{enumerate}
@@ -17,7 +35,13 @@ Perform a full validation of whether the technique employed by the assay develop
 \end{safety}
 
 \section{Sample Explanations}
-
+All samples will have R1-4 following them, indicating which replicate they belong to. Each sample and control will have four replicates.
+\begin{enumerate}
+  \item{\textbf{AD5}, Assay Development 5 - Sample testing the entirety of the backspace synthesis method using a complementary strand consisting of five basepairs.}
+  \item{\textbf{AD5}, Assay Development 5 - Sample testing the entirety of the backspace synthesis method using a complementary strand consisting of six basepairs.}
+  \item{\textbf{ADNC}, Assay Development Negative Control - Control designed to generate Sanger sequencing reads without backspace synthesis.}
+  \item{\textbf{ADPC}, Assay Development Positive Control - Control designed to generate Sanger sequencing reads designed to imitate successful single basepair addition.}
+\end{enumerate}
 
 \section{Materials}
 \begin{itemize}
@@ -42,6 +66,7 @@ Perform a full validation of whether the technique employed by the assay develop
   \item{10mM dNTPs}
   \item{10X Taq Reaction Buffer Pack}
   \item{Oligo d(T)18 Primer}
+  \item{PCR 8-strip Tubes}
 \end{itemize}
 
 \section{Procedure}
