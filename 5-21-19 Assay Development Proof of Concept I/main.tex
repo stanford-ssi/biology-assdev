@@ -1,11 +1,13 @@
 \documentclass{ssiBio}
 \usepackage{siunitx}
 \usepackage{verbatim}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+
 \title{Assay Development Proof of Concept I}
 \author{Written by \textbf{Alan Tomusiak}}
 \date{\textbf{Written:} May 21, 2019, \textbf{Performed:} May 23, 2019 - May 30, 2019, \textbf{Printed:} \today{}}
 \begin{document}
-
 \maketitle
 \section{Procedure Purpose}
 Perform a full validation of whether the technique employed by the assay development team is capable of testing backspace synthesis. Test every step in the assay to troubleshoot any problematic components. Determine whether a 5-bp or a 6-bp complementary strand will lead to more efficient nucleotide addition. Create positive and negative control results for future comparison.
@@ -90,6 +92,8 @@ All samples will have R1-4 following them, indicating which replicate they belon
   \item{Incubate at 37\C{} for an hour.}
   \item{Stop the reaction by heating at 70\C{} for ten minutes.}
   \stopPoint{}
+  \item{Purify the reaction using a Qiagen PCR Purification kit. Dilute in 30 \uL{} of elution buffer for the final elution step.}
+  \stopPoint{}
   \item{Run 2\uL{} of the reaction on a 2\% agarose gel. Run the gel according to the following table. Ensure that strands are uniformly tailed and that there is not a significant portion of template that is not tailed. If tailing is not complete, proceed to the next step and then repeat TdT tailing.}
     \begin{table}[ht]
     \centering
@@ -116,14 +120,14 @@ All samples will have R1-4 following them, indicating which replicate they belon
   \end{itemize}
   \item{Run the gel at 100V until the lower loading dye marker is approximately halfway down the gel.}
   \stopPoint{}
-  \item{Purify the reaction using a Qiagen PCR Purification kit. Dilute in 40 \uL{} of elution buffer for the final elution step.}
   \item{Measure DNA concentration using a NanoDrop Spectrophotometer.}
+  \item{Dilute DNA samples so that they have an even concentration according to the NanoDrop Spectrophotometer. To do this, dilute add water to all samples until they
+  match the concentration of the sample that has the lowest concentration when measured by the NanoDrop.}
   \stopPoint{}
 \end{enumerate}
 
 \subsection{Complementary Strand Binding and Exonuclease T Cleavage}
 \begin{enumerate}
-\item{Dilute TdT-extended template to a concentration of 12.5ng/\uL{}.}
 \item{Into the AD5 tubes, add the following:}
 \begin{enumerate}
   \item{5\uL{} NEBuffer 4.}
@@ -193,6 +197,24 @@ All samples will have R1-4 following them, indicating which replicate they belon
 \subsection{Complementary Strand Fill-In}
 
 \section{Results}
+\begin{figure}[ht]
+\centering
+  \includegraphics[width=.8\linewidth]{PCRAmplificationGel.png}
+  \caption{Gel showing PCR-amplified template strands. Lane 1 is GoldBio 50bp Ladder, lanes 2-9 are randomly sampled PCR-amplified template strands.}
+  \label{fig:figure1}
+\end{figure}
+\begin{figure}[ht]
+\centering
+  \includegraphics[width=.8\linewidth]{BstXIRestrictedGel.png}
+  \caption{Gel showing PCR-amplified template strands. Lane 1 is GoldBio 50bp Ladder, lanes 2-9 are randomly sampled BstXI-digested template strands.}
+  \label{fig:figure2}
+\end{figure}
+\begin{figure}[ht]
+\centering
+  \includegraphics[width=.8\linewidth]{TdTTExtendedGel.png}
+  \caption{Lanes correspond to Table 1 in `TdT Poly-T Tailing' section above.}
+  \label{fig:figure3}
+\end{figure}
 
 \section{Analysis}
 
